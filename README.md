@@ -1,5 +1,3 @@
-Aqui está o seu `README.md` atualizado e completo, integrando a estrutura de diretórios detalhada e as especificações técnicas do projeto de **Sistema de ABS Distribuído**.
-
 ---
 
 # Sistema de ABS Distribuído
