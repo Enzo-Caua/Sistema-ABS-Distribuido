@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="880.0" style="-fx-background-color: #696969;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AtuadoresController">
+   <children>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#8f8f8f" height="540.0" layoutX="40.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 12;" width="820.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
+      <Group layoutX="67.0" layoutY="152.0" AnchorPane.bottomAnchor="321.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="580.0" AnchorPane.topAnchor="125.0">
+         <children>
+            <Label fx:id="rde" alignment="CENTER" layoutX="6.0" layoutY="31.0" prefHeight="70.0" prefWidth="180.0" styleClass="painel" stylesheets="@../css/velocimetro.css" text="RDE" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="190.0" styleClass="impact" stylesheets="@../css/label.css" text="Dianteira Esquerda" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="638.0" layoutY="36.0" AnchorPane.bottomAnchor="320.0" AnchorPane.leftAnchor="590.0" AnchorPane.rightAnchor="110.0" AnchorPane.topAnchor="125.0">
+         <children>
+            <Label fx:id="rdd" alignment="CENTER" layoutY="32.0" prefHeight="70.0" prefWidth="180.0" styleClass="painel" stylesheets="@../css/velocimetro.css" text="RDD" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="180.0" styleClass="impact" stylesheets="@../css/label.css" text="Dianteira Direita" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="120.0" layoutY="380.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="590.0" AnchorPane.topAnchor="361.0">
+         <children>
+            <Label fx:id="rte" alignment="CENTER" layoutY="31.0" prefHeight="70.0" prefWidth="180.0" styleClass="painel" stylesheets="@../css/velocimetro.css" text="RTE" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="180.0" styleClass="impact" stylesheets="@../css/label.css" text="Traseira Esquerda" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="548.0" layoutY="380.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="589.0" AnchorPane.rightAnchor="110.0" AnchorPane.topAnchor="361.0">
+         <children>
+            <Label fx:id="rtd" alignment="CENTER" layoutX="1.0" layoutY="31.0" prefHeight="70.0" prefWidth="180.0" styleClass="painel" stylesheets="@../css/velocimetro.css" text="RTD" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="180.0" styleClass="impact" stylesheets="@../css/label.css" text="Traseira Direita" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <ImageView fitWidth="500.0" layoutX="417.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" AnchorPane.bottomAnchor="118.553466796875" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="150.0">
+         <image>
+            <Image url="@../imagens/CarroRealista.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Nome" alignment="CENTER" layoutX="277.0" layoutY="58.0" prefHeight="60.0" prefWidth="226.0" styleClass="impact" stylesheets="@../css/label.css" text="ATUADORES" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="327.0" AnchorPane.rightAnchor="327.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="atRDE" alignment="CENTER" layoutX="152.0" layoutY="243.0" prefHeight="35.0" prefWidth="93.0" styleClass="combo-box" stylesheets="@../css/combobox.css" text="RDE" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="atRDD" alignment="CENTER" layoutX="631.0" layoutY="244.0" prefHeight="35.0" prefWidth="93.0" styleClass="combo-box" stylesheets="@../css/combobox.css" text="RDD" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="atRTE" alignment="CENTER" layoutX="152.0" layoutY="478.0" prefHeight="35.0" prefWidth="93.0" styleClass="combo-box" stylesheets="@../css/combobox.css" text="RTE" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="atRTD" alignment="CENTER" layoutX="631.0" layoutY="479.0" prefHeight="35.0" prefWidth="93.0" styleClass="combo-box" stylesheets="@../css/combobox.css" text="RTD" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

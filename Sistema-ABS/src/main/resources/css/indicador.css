@@ -1,0 +1,60 @@
+/* 🔴 INATIVO */
+.inativo {
+    -fx-font-size: 32px;
+
+    -fx-alignment: center;
+
+    /* Borda estilo botão */
+    -fx-border-color: #3a3a3a #000000 #000000 #3a3a3a;
+    -fx-border-width: 4;
+
+    /* Cantos arredondados */
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+
+    -fx-padding: 5;
+
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #323232,
+            rgb(21, 21, 21)
+    );
+
+    -fx-text-fill: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #333333 0%,
+            #000000 50%,
+            #000000 100%
+    );
+
+
+}
+
+/* 🟢 ATIVO */
+.ativo {
+    -fx-font-size: 32px;
+
+    -fx-alignment: center;
+
+    /* Borda estilo botão */
+    -fx-border-color: #3a3a3a #000000 #000000 #3a3a3a;
+    -fx-border-width: 4;
+
+    /* Cantos arredondados */
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+
+    -fx-padding: 5;
+
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #00ff00,
+            rgb(0, 111, 0)
+    );
+    -fx-text-fill: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #ffffff 0%,
+            #dddddd 50%,
+            #aaaaaa 100%
+    );
+}

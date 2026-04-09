@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/impact.ttf");
+}
+
+.impact {
+    -fx-font-family: "Impact"
+}

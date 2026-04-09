@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/impact.ttf");
+}
+
+.combo-box {
+    -fx-font-family: "Impact";
+    -fx-font-size: 20px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+
+    -fx-background-color: #980000;
+
+    -fx-border-color: #3a3a3a #000000 #000000 #3a3a3a;
+    -fx-border-width: 4;
+
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+
+    -fx-padding: 15;
+}
+
+/* Texto da ComboBox */
+.combo-box .list-cell {
+    -fx-background-color: #980000;
+    -fx-font-family: "Arial";
+    -fx-font-size: 20px;
+    -fx-text-fill: #000000;
+    -fx-padding: 1 1 1 1;
+}
+
+/* Botão da seta */
+.combo-box .arrow-button {
+    -fx-background-color: #980000;
+    -fx-padding: 0;
+    -fx-pref-width: 10px;
+    -fx-min-width: 10px;
+    -fx-max-width: 10px;
+}
+
+/* Seta */
+.combo-box .arrow {
+    -fx-background-color: #000000;
+}

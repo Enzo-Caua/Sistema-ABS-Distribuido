@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="710.0" style="-fx-background-color: #696969;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ServidorController">
+   <children>
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#8f8f8f" height="350.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 12;" width="650.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="230.0" AnchorPane.topAnchor="30.0" />
+      <Label fx:id="Nome" alignment="CENTER" layoutX="257.0" layoutY="38.0" prefHeight="60.0" prefWidth="195.0" styleClass="impact" stylesheets="@../css/label.css" text="SERVIDOR" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="257.0" AnchorPane.rightAnchor="258.0">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Label>
+      <Group layoutX="226.0" layoutY="29.0">
+         <children>
+            <Group layoutX="215.0" />
+         </children>
+      </Group>
+      <Group layoutX="110.0" layoutY="90.0" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <Group layoutY="35.0">
+               <children>
+                  <Group layoutX="1.0">
+                     <children>
+                        <Label fx:id="srRDE" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RDE" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutX="104.0">
+                     <children>
+                        <Label fx:id="srRDD" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RDD" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutY="113.0">
+                     <children>
+                        <Label fx:id="srRTE" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RTE" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutX="104.0" layoutY="113.0">
+                     <children>
+                        <Label fx:id="srRTD" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RTD" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+               </children>
+            </Group>
+            <Label alignment="CENTER" layoutX="42.0" prefHeight="30.0" prefWidth="111.0" styleClass="impact" stylesheets="@../css/label.css" text="SENSORES" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="389.0" layoutY="267.0" />
+      <Group layoutX="295.0" layoutY="83.0" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="216.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <Group layoutY="35.0">
+               <children>
+                  <Group layoutX="1.0">
+                     <children>
+                        <Label fx:id="atRDE" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RDE" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutX="104.0">
+                     <children>
+                        <Label fx:id="atRDD" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RDD" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutY="113.0">
+                     <children>
+                        <Label fx:id="atRTE" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RTE" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+                  <Group layoutX="104.0" layoutY="113.0">
+                     <children>
+                        <Label fx:id="atRTD" alignment="CENTER" layoutY="34.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+                           <font>
+                              <Font name="DS-Digital" size="36.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="70.0" styleClass="impact" stylesheets="@../css/label.css" text="RTD" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Impact" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+               </children>
+            </Group>
+            <Label alignment="CENTER" layoutX="42.0" prefHeight="30.0" prefWidth="111.0" styleClass="impact" stylesheets="@../css/label.css" text="ATUADORES" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group layoutX="525.0" layoutY="166.0" AnchorPane.bottomAnchor="134.0" AnchorPane.leftAnchor="521.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="166.0">
+         <children>
+            <Label fx:id="usuario" alignment="CENTER" layoutX="21.0" layoutY="40.0" prefHeight="70.0" prefWidth="90.0" styleClass="inativo" stylesheets="@../css/indicador.css" text="⏻" textAlignment="CENTER" textFill="RED" wrapText="true">
+               <font>
+                  <Font name="DS-Digital" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="10.0" prefHeight="30.0" prefWidth="109.0" styleClass="impact" stylesheets="@../css/label.css" text="USUÁRIO" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

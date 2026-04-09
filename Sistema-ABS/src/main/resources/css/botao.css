@@ -1,0 +1,27 @@
+.botao {
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+
+    /* Gradiente para dar profundidade */
+    -fx-text-fill: #000000;
+
+    /* Fundo com leve gradiente */
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #ff0000,
+            rgb(111, 0, 0)
+    );
+
+    /* Borda */
+    -fx-border-color: #3a3a3a #000000 #000000 #3a3a3a;
+    -fx-border-width: 4;
+
+    /* Cantos arredondados (opcional) */
+    -fx-background-radius: 15;
+    -fx-border-radius: 10;
+
+    /* Espaçamento interno */
+    -fx-padding: 15;
+
+}
+

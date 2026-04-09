@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "DS-Digital";
+    src: url("../fonts/DS-DIGI.TTF");
+}
+
+.painel {
+    -fx-font-family: "DS-Digital"; /* ou Orbitron / DS-Digital */
+    -fx-font-size: 36px;
+
+    /* Gradiente para dar profundidade */
+    -fx-text-fill: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #ff3333 0%,
+            #cc0000 50%,
+            #660000 100%
+    );
+
+    /* Fundo com leve gradiente */
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 0% 100%,
+            #2a2a2a,
+            #0d0d0d
+    );
+
+    /* Borda */
+    -fx-border-color: #3a3a3a #000000 #000000 #3a3a3a;
+    -fx-border-width: 3;
+
+    /* Cantos arredondados (opcional) */
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+    /* Espaçamento interno */
+    -fx-padding: 15;
+
+    /* Sombra interna (efeito de profundidade) */
+    -fx-effect: innershadow(
+            gaussian,
+            rgba(0, 0, 0, 0.9),
+            15,
+            0.5,
+            0,
+            3
+    );
+}

@@ -1,0 +1,60 @@
+FALTA:
+- Interface usuario [ok]
+- Refazer interface sensores e atuadores [ok]
+- Garantir que todos as interface estão ok [ok]
+- Comandos do usuario [ok]
+- Integrar tudo com Docker
+
+- KM/H faltando no atuador [ok]
+- Zerar o km/h no Atuador quando parar o sensor e/ou parar o atuador [ok]
+- Opção de atuação do usuario persistente
+
+
+=====================================================================================================================
+
+
+- Clientes precisa estar em computadores diferentes [ok]
+- Criar um calculo da media das ultimas velocidades de recebidas
+- Criar as interfaces dos sensores, atuadores, do usuario e do servidor
+-
+
+Fluxo de Dados:
+- Sensores geram dados e enviam via UDP para o servidor [ok]
+- Servidor UDP recebe os dados, calcula a media das velocidades e envia pro servidor central [ok]
+- Servirdor central usa os dados calculados para enviar comandos para os atuadores [ok]
+    - Condições:
+        1. Roda estável
+            Condição: diferença ≤ 2 km/h
+            Resultado: 0% de atuação
+        2. Início de escorregamento
+            Condição: 2 < diferença ≤ 5 km/h
+            Resultado: 25% de atuação
+        3. Escorregamento moderado
+            Condição: 5 < diferença ≤ 8 km/h
+            Resultado: 50% de atuação
+        4. Alto risco de travamento
+            Condição: 8 < diferença ≤ 12 km/h
+            Resultado: 75% de atuação
+        5. Travamento crítico
+            Condição: diferença > 12 km/h
+            Resultado: 100% de atuação
+        6. Diferença desprezível (ajuste fino)
+            Condição: diferença < 1 km/h
+            Resultado: 0% de atuação
+        [diferença = velocidade de referência − velocidade da roda]
+        [referência = maior(FL, FR, RL, RR)]
+- Atuadores exibem a ação [ok]
+- Usuario recebe dados e envia comandos
+    - Ve as velocidades [ok]
+    - Ve os atuadores [ok]
+    - Seleciona um roda para parar [ok]
+    - Parar todas as rodas
+- Interface Servidor
+    - Conexão dos Sensores
+    - Conexao dos Atuadores
+    - Conexão do Usuario
+- Garantir que tudo ta vindo junto, incluindo a fonte
+- Adicionar a opção de selecionar quantidade de sensores e de remover na interface [OK]
+
+Feito:
+- Fiz um codigo que abre varios terminais [Descartado]
