@@ -1,5 +1,3 @@
----
-
 # Sistema de ABS Distribuído
 
 Este projeto consiste em uma simulação distribuída de um sistema de frenagem **ABS (Anti-lock Braking System)** utilizando Java. O sistema é composto por múltiplos módulos independentes (Sensores, Atuadores, Servidor Central e Painel do Usuário) que se comunicam via rede utilizando protocolos TCP e UDP.
